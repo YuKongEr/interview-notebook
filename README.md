@@ -422,3 +422,8 @@ TheadLocal又称线程本地变量，代表它只能被拥有的它线程访问�
 ThreadLocal是通过一个ThreadLocalMap实现的其实它相当于Map<Thread,Object> 其中的Thread就是调用
 
 set()方法的线程。 那么get的时候通过当前线程获取，从而保证线程安全。注意使用完记得remove，不然会存在内存溢出的问题。
+
+
+
+
+
